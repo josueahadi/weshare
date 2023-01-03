@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.main img {
+    height: 37rem;
+    float: right;
+}
+
+.main h3,
+p {
+    text-align: center;
+    position: relative;
+    top: 10rem;
+}
+
+a.header-logo {
+    text-decoration: none !important;
+}
+
+.header-logo img {
+    width: 40px;    
+    height: 40px;
+}
+
+footer {
+    clear: right;
+}
+
+footer .copyright img {
+    width: 100px;
+    height:  100px;
+}
+
+.bs-example {
+    margin: 20px;
+}
+
+.modal-content iframe {
+    margin: 0 auto;
+    display: block;
+}
+
+.whytouse {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../images/galaxy.jpg');
+    color: white;
+    padding-top: 1.5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* SIGNINP.PHP & SIGNUP.PHP */
+
+.form {
+	margin: 40px auto;
+	background-color: #fff;
+	border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}

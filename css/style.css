@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+textarea{
+	resize: none;
+}
+
+
+/* HEADER */
+
+.well {
+	background-color: #18233a;
+	text-align: center;
+}
+
+.well h1{
+	color: white;
+	font-weight: bold;
+	font-family: cursive,'Comfortaa';
+}
+
+/* INDEX */
+
+.content-left{
+	left:0.5%;
+	font-family: cursive,'Comfortaa';
+}
+
+.col-sm-6 .bg-image{
+	width: 650px; 
+	height: 500px;
+}
+
+.col-sm-6 .bg-image img {
+	width: 100%; 
+	height: 100%;
+}
+
+.centered h3 {
+	font-weight: bold;
+}
+
+.centered .fa, 
+.centered .glyphicon {
+	margin-right: 10px;
+}
+
+#centered1 {
+	position: absolute;
+	font-size: 10vw;
+	top: 30%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+}
+
+#centered2 {
+	position: absolute;
+	font-size: 10vw;
+	top: 50%;
+	left: 40%;
+	transform: translate(-50%, -50%);
+}
+
+#centered3 {
+	position: absolute;
+	font-size: 10vw;
+	top: 70%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+}
+
+.content-right{
+	margin-top: 6%;
+	left: 8%;
+}
+
+.content-right img{
+	width: 80px; 
+	height: 80px;
+	margin-left: 21%;
+}
+
+.description-text h2 {
+	font-weight: bold;
+	font-family: cursive,'Comfortaa';
+}
+
+.description-text .we-share {
+	display: block;
+	margin: 25px 0 20px 110px;
+}
+
+#signup, 
+#signin {
+	width: 57%;
+	border-radius: 30px;
+	outline: none;
+	background-color: #18233a;
+	border: none;
+	color: #fff;
+	font-weight: 600;
+	transition: background .4s;
+}
+
+#signup:hover, 
+#signin:hover {
+	background-color: #08AEEA;
+}
+
+#login {
+	width: 57%;
+	background-color: #fff;
+	border: 1px solid #18233a;
+	outline: none;
+	color: #18233a;
+	font-weight: 600;
+	border-radius: 30px;
+	transition: color .4s;
+}
+
+#login:hover {
+	color: #08AEEA;
+	border: 1px solid #08AEEA;
+}
+
+/* SIGNINP.PHP & SIGNUP.PHP */
+
+.main-content{
+	width: 50%;
+	height: 40%;
+	margin: 10px auto;
+	background-color: #fff;
+	border: 2px solid #e6e6e6;
+	padding: 40px 50px;
+}
+
+.header {
+	border: 0px solid #000;
+	margin-bottom: 5px;
+}
+
+.header h3 {
+	text-align: center;
+	font-weight: bold;
+}
+
+.overlap-text {
+	position: relative;
+}
+
+.overlap-text a {
+	position: absolute;
+	top: 8px;
+	right: 10px;
+	font-size: 14px;
+	text-decoration: none;
+	font-family: 'Overpass Mono', monospace;
+	letter-spacing: -1px;
+	text-decoration: none;
+	float: right;
+	color: #18233a;
+}
+
+.l-part a {
+	text-decoration: none;
+	float: right;
+	color: #18233a;
+}
+
+
+/* NAVBAR */
+
+.navbar-header .navbar-brand {
+	font-weight: bold;
+	font-family: cursive,'Comfortaa';
+	color: #08AEEA;
+	transition: color .4s;
+}
+
+.navbar-header .navbar-brand:hover {
+	color: #1b95c1;
+}
+
+.navbar-header .navbar-brand:focus {
+	color: #18233a;
+}
+
+.navbar .collapse ul#left-nav li {
+	font-weight: bold;
+}
+
+.navbar .collapse ul#right-nav li,
+#right-nav button {
+	font-weight: 600;
+}
+
+.navbar .collapse ul#left-nav li#user-name {
+	border-right: 1px solid #666;
+	border-radius: 25px;
+}
+
+
+
+
+
+
+
